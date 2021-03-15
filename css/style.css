@@ -1,3 +1,13 @@
+/* @font-face {
+    font-family: BarlowRegular;
+    src: url(./fonts/barlow-regular_macroman/Barlow-Regular-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+   }
+   body {
+    font-family: BarlowRegular;
+   } */
+
 .box {
   margin: 40px;
   background-color: #FFFFFF;
@@ -20,4 +30,25 @@
   position: absolute;
   padding-left: 100px;
   padding-top: 100px;
+}
+
+.facebookButton {
+  background-color: #255A9B;
+  color: #FFFFFF;
+}
+
+.linkedinButton {
+  background-color: #0076B6;
+  color: #FFFFFF;
+}
+
+.socialIcon {
+  height: 16px;
+  width: 16px;
+}
+
+.logo {
+  position: absolute;
+  margin-left: 30px;
+  margin-top: 30px;
 }
