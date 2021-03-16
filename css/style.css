@@ -1,12 +1,5 @@
-/* @font-face {
-    font-family: BarlowRegular;
-    src: url(./fonts/barlow-regular_macroman/Barlow-Regular-webfont.woff) format('woff');
-    font-weight: normal;
-    font-style: normal;
-   }
-   body {
-    font-family: BarlowRegular;
-   } */
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&display=swap');
 
 .box {
   margin: 40px;
@@ -35,11 +28,23 @@
 .facebookButton {
   background-color: #255A9B;
   color: #FFFFFF;
+  font-family: 'Barlow', sans-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 40px;
+  border: none;
 }
 
 .linkedinButton {
   background-color: #0076B6;
   color: #FFFFFF;
+  font-family: 'Barlow', sans-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 40px;
+  border: none;
 }
 
 .socialIcon {
@@ -51,4 +56,56 @@
   position: absolute;
   margin-left: 30px;
   margin-top: 30px;
+}
+
+.text {
+  font-family: 'Barlow', sans-serif;
+  font-weight: 600;
+  color: #2A4A5C;
+}
+
+.text_1 {
+  padding-left: 210px;
+  font-family: 'Barlow', sans-serif;
+  color: #2A4A5C;
+}
+
+.placeholder {
+  height: 30px;
+  width: 200px;
+}
+
+.infoButton {
+  height: 10px;
+  width: 2px;
+  border-radius: 50%;
+  border: 3px;
+  margin-right: 20px;
+  font-size: 7px;
+}
+
+.checkBox {
+  height: 10px;
+  width: 10px;
+}
+
+.checkBoxText {
+  font-size: 10px;
+  font-weight: 600;
+  font-family: 'Barlow', sans-serif;
+  color: #8f8b8b;
+}
+
+.createButton {
+  height: 40px;
+  width: 220px;
+  border: none;
+  border-radius: 3px;
+  background-color: #3698FB;
+  color: #FFFFFF;
+}
+
+.link {
+  font-family: 'Barlow', sans-serif;
+  font-weight: 600;
 }
