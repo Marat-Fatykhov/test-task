@@ -32,8 +32,13 @@
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 20px;
-  padding-right: 40px;
+  padding-right: 30px;
   border: none;
+  cursor: pointer;
+}
+
+.facebookButton:hover {
+  background-color: #073c7d;
 }
 
 .linkedinButton {
@@ -43,13 +48,19 @@
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 20px;
-  padding-right: 40px;
+  padding-right: 30px;
   border: none;
+  cursor: pointer;
+}
+
+.linkedinButton:hover {
+  background-color: #01537f;
 }
 
 .socialIcon {
   height: 16px;
   width: 16px;
+  margin-right: 10px;
 }
 
 .logo {
@@ -101,6 +112,7 @@
   width: 220px;
   border: none;
   border-radius: 3px;
+  cursor: pointer;
   background-color: #3698FB;
   color: #FFFFFF;
 }
@@ -108,4 +120,142 @@
 .link {
   font-family: 'Barlow', sans-serif;
   font-weight: 600;
+  cursor: pointer;
+}
+
+.inputText {
+  font-weight: 800;
+  font-family: 'Barlow', sans-serif;
+}
+
+.information_1 {
+  height: 10px;
+  width: 10px;
+  font-size: 8px;
+  display: inline-block;
+  position: relative;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  text-align: center;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.informationText_1 {
+  font-size: 15px;
+  visibility: hidden;
+  position: absolute;
+  width: 100px;
+  background-color: #f2eded;
+  color: #171717;
+  text-align: center;
+  top: 30px;
+  left: -90px;
+  border-style: solid;
+  border-color: #1f1e1e;
+  border-width: 1px;
+}
+
+.information_1:hover .informationText_1 {
+  visibility: visible;
+}
+
+.information_2 {
+  height: 10px;
+  width: 10px;
+  font-size: 8px;
+  display: inline-block;
+  position: relative;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  text-align: center;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.informationText_2 {
+  font-size: 15px;
+  visibility: hidden;
+  position: absolute;
+  width: 100px;
+  background-color: #f2eded;
+  color: #171717;
+  text-align: center;
+  top: 30px;
+  left: -210px;
+  border-style: solid;
+  border-color: #1f1e1e;
+  border-width: 1px;
+}
+
+.information_2:hover .informationText_2 {
+  visibility: visible;
+}
+
+.information_3 {
+  height: 10px;
+  width: 10px;
+  font-size: 8px;
+  display: inline-block;
+  position: relative;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  text-align: center;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.informationText_3 {
+  font-size: 15px;
+  visibility: hidden;
+  position: absolute;
+  width: 100px;
+  background-color: #f2eded;
+  color: #171717;
+  text-align: center;
+  top: 30px;
+  left: -280px;
+  border-style: solid;
+  border-color: #1f1e1e;
+  border-width: 1px;
+}
+
+.information_3:hover .informationText_3 {
+  visibility: visible;
+}
+
+.information_4 {
+  height: 10px;
+  width: 10px;
+  font-size: 8px;
+  display: inline-block;
+  position: relative;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  text-align: center;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.informationText_4 {
+  font-size: 15px;
+  visibility: hidden;
+  position: absolute;
+  width: 100px;
+  background-color: #f2eded;
+  color: #171717;
+  text-align: center;
+  top: 30px;
+  left: -380px;
+  border-style: solid;
+  border-color: #1f1e1e;
+  border-width: 1px;
+}
+
+.information_4:hover .informationText_4 {
+  visibility: visible;
 }
